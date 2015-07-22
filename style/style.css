@@ -1,0 +1,53 @@
+body,div,p,ul,li,dl,dt,dd,h1,a{margin: 0;padding: 0;}
+img{border: none;}
+h1{font-size: 100%;}
+html{background: url(../image/gb.gif);}
+#header,#banner,#content,#footer{width: 1000px;margin: 0 auto;} /*将页面水平居中*/
+body{background: url(../image/clouds.gif) repeat-x;padding-top:45px; font-weight: Verdana,Geneva,sans-serif;}
+#logo{display: block;width: 220px;height: 54px;float: left;background: #991616;}
+#logo img{display: block;}
+#nav{width: 780px;height: 54px;float: left;background: #393838;list-style: none;}
+#nav li{float: left;}
+#nav li a {display: block;width: 86px;height: 54px;line-height: 54px;text-align: center;font-size: 12px;color: #ccc;text-decoration: none;float: left;}
+#nav li a:hover{color: #fff ;}
+#nva li .navActive{background: url(../image/navHoverBg.png ) no-repeat;color: #fff ;}/*激活状态不收hover的影响*/
+#header{overflow: hidden;}
+#banner{display: block;width: 1000px;height: 292px;margin: 10px auto;}
+#banner img{display: block;width: 1000px;height: 292px;}
+#content{overflow: hidden;background: #eaeaea;font-size: 12px;line-height: 24px;}
+#leftArticle,#rightInfo{margin: 10px;float: left;display: inline;}
+#leftArticle{width:660px;}
+#rightInfo{width: 300px;}
+#articlePicA,#articlePicA img {display: block;} /*遇到图片链接这种情况，第一反应就是先将这两块给设置成块状元素，图片外面的链接起个id叫articlePicA，意思是文章图片外部的链接
+*/
+#leftArticle h1{margin: 20px 0;font-size: 24px;font-family: "微软雅黑" ，"黑体";}
+#leftArticle h1 a {color: #900;text-decoration: none;}
+#leftArticle h1 a:hover{text-decoration: underline;}
+#leftArticle p{color: #333;text-decoration: 2em;margin-bottom: 30px;font-size: 14px;}
+#rightInfo dl{margin-bottom: 10px;}
+#rightInfo dl dt{background: url(../image/title.jpg) no-repeat;
+height: 32px;
+line-height: 32px;
+color: #fff ;
+font-size: 14px;
+font-weight: bold;
+text-indent: 20px;/*文字缩进*/
+}
+#rightInfo dl dd{
+	height: 24px;
+	line-height: 24px;
+	background: url(../image/dot.gif) no-repeat 7px 10px;/*将做好的小红点图片dot.gif设置为dd的背景且不平铺，距离dd左侧的距离为7px，上面的距离为10px；*/
+    text-indent:16px;: 
+}
+#rightInfo  dl dd a{color: #333;text-decoration: none;}
+#rightInfo  dl dd a:hover{color: #900; text-decoration: underline;}
+#footer{background: #393838;
+margin-top: 10px;
+height: 52px;
+color: #ccc;
+text-align: center;
+line-height: 18px;
+padding-top: 18px;
+font-size: 12px;}
+#footer a{color: #ccc;text-decoration: none;}
+#footer a:hover{text-decoration: underline;}
